@@ -134,3 +134,97 @@ html,
 body {
   height: 100%;
 }
+html {
+  font-size: 62.5%;
+}
+body,
+header,
+section,
+aside,
+footer {
+  margin: 0;
+  padding: 2rem;
+  border: 1px solid #000000;
+  color: #ffffff;
+}
+main {
+  background: #000000;
+}
+h1 {
+  font-size: 4.5rem;
+  padding-bottom: 1.5rem;
+}
+h2 {
+  font-size: 3.5rem;
+  padding-bottom: 1rem;
+}
+h3 {
+  font-size: 2.75rem;
+  padding-bottom: 0.75rem;
+}
+h4 {
+  font-size: 2.2rem;
+  padding-bottom: 0.5rem;
+}
+h5 {
+  font-size: 2rem;
+  padding-bottom: 0.5rem;
+}
+h6 {
+  font-size: 1.75rem;
+  padding-bottom: 0.5rem;
+  font-style: italic;
+}
+p {
+  font-size: 1.6rem;
+  padding-bottom: 0.5rem;
+}
+ul {
+  list-style-type: circle;
+  padding-left: 2rem;
+}
+ul li {
+  font-size: 1.6rem;
+}
+@media screen and (min-width: 640px) {
+  .flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+  }
+}
+.wrapper {
+  margin: auto;
+  max-width: rem-calc(1200);
+}
+.flex-half {
+  flex: 1;
+}
+.header {
+  background: #03a9f4;
+  width: 100%;
+}
+.header nav a {
+  text-decoration: none;
+  font-size: 2.5rem;
+  color: #000000;
+}
+.intro {
+  background: #d22b1f;
+}
+.skills {
+  background: #129a22;
+  width: 100%;
+}
+.experience {
+  background: #673ab7;
+}
+.experience .experience-box {
+  margin: 2rem 1%;
+  padding: 2rem;
+  border: #000000 solid 1px;
+}
+.footer {
+  background: #616161;
+  width: 100%;
+}
