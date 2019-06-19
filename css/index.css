@@ -157,7 +157,8 @@ h4,
 h5,
 h6,
 p,
-ul {
+ul,
+button {
   font-family: "Open Sans", sans-serif;
 }
 h1 {
@@ -277,6 +278,31 @@ main .intro .flex-container .intro-img img {
   border: 3px solid #fbfaef;
   flex: 1;
 }
+main .intro .flex-container .intro-text h3 {
+  margin-bottom: 2rem;
+}
+main .intro .flex-container .intro-text .btn {
+  font-size: 3rem;
+  background-color: #70ccbf;
+  padding: 0.5rem 2rem;
+  border: #000000 solid 2px;
+  border-radius: 0.5rem;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  transition: all 0.2s;
+  position: relative;
+}
+main .intro .flex-container .intro-text .btn a {
+  text-decoration: none;
+  color: #fbfaef;
+}
+main .intro .flex-container .intro-text .btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+main .intro .flex-container .intro-text .btn:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
 @media screen and (min-width: 640px) {
   main .intro .flex-container .intro-text {
     text-align: left;
@@ -313,6 +339,11 @@ main .skills .skills-box {
   border-radius: 0.5rem;
   box-shadow: 5px 8px 0px #f3cc40, 10px 16px 0px #e48545, 15px 24px 0px #e6673e;
 }
+@media screen and (min-width: 1500px) {
+  main .skills {
+    max-width: 1500px;
+  }
+}
 main .experience {
   margin-top: 3rem;
   margin-bottom: 4rem;
@@ -336,6 +367,11 @@ main .experience .experience-box {
 main .experience .education-experience {
   margin-bottom: 8rem;
 }
+@media screen and (min-width: 1500px) {
+  main .experience {
+    max-width: 1500px;
+  }
+}
 main .contact {
   padding: 5rem 3rem 3rem;
   text-align: center;
@@ -357,6 +393,12 @@ main .contact a:hover {
 main .contact .tel {
   text-decoration: none;
 }
+@media screen and (min-width: 640px) {
+  main .contact .icons {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+}
 main .contact .icon {
   text-decoration: none;
   border-bottom: none;
@@ -364,6 +406,7 @@ main .contact .icon {
   font-size: 3rem;
   font-weight: 400;
   font-family: "Font Awesome 5 Brands";
+  padding: 1rem;
 }
 main .contact .icon > .label {
   display: none;
