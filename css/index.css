@@ -216,10 +216,10 @@ main .wrapper {
 main .flex-half {
   flex: 1;
 }
-main .header {
+.header {
   width: 100%;
 }
-main .header nav {
+.header nav {
   position: fixed;
   top: 0;
   left: 0;
@@ -232,7 +232,7 @@ main .header nav {
   justify-content: space-evenly;
   align-items: center;
 }
-main .header nav a {
+.header nav a {
   text-decoration: none;
   color: #fbfaef;
   font-size: 1.75rem;
@@ -241,47 +241,52 @@ main .header nav a {
   padding: 29px 0;
 }
 @media screen and (min-width: 640px) {
-  main .header nav a {
+  .header nav a {
     font-size: 2.25rem;
     letter-spacing: 2px;
   }
 }
-main .header nav a:hover {
+.header nav a:hover {
   color: #f3cc40;
 }
-main .intro {
+.footer {
+  background: #70ccbf;
+  width: 100%;
+  text-align: center;
+}
+.intro {
   margin-top: 80px;
   background-image: url(../images/background.jpg);
 }
-main .intro .flex-container {
+.intro .flex-container {
   justify-content: center;
   align-items: center;
 }
-main .intro .flex-container .flex-quarter {
+.intro .flex-container .flex-quarter {
   flex: 2;
 }
-main .intro .flex-container .flex-three-quarters {
+.intro .flex-container .flex-three-quarters {
   flex: 3;
 }
-main .intro .flex-container .flex-quarter,
-main .intro .flex-container .flex-three-quarters {
+.intro .flex-container .flex-quarter,
+.intro .flex-container .flex-three-quarters {
   text-align: center;
   margin: 2rem;
 }
 @media (min-width: 640px) {
-  main .intro .flex-container .intro-img {
+  .intro .flex-container .intro-img {
     text-align: right;
   }
 }
-main .intro .flex-container .intro-img img {
+.intro .flex-container .intro-img img {
   border-radius: 50%;
   border: 3px solid #fbfaef;
   flex: 1;
 }
-main .intro .flex-container .intro-text h3 {
+.intro .flex-container .intro-text h3 {
   margin-bottom: 2rem;
 }
-main .intro .flex-container .intro-text .btn {
+.intro .flex-container .intro-text .btn {
   font-size: 3rem;
   background-color: #70ccbf;
   padding: 0.5rem 2rem;
@@ -291,24 +296,24 @@ main .intro .flex-container .intro-text .btn {
   transition: all 0.2s;
   position: relative;
 }
-main .intro .flex-container .intro-text .btn a {
+.intro .flex-container .intro-text .btn a {
   text-decoration: none;
   color: #fbfaef;
 }
-main .intro .flex-container .intro-text .btn:hover {
+.intro .flex-container .intro-text .btn:hover {
   transform: translateY(-3px);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
-main .intro .flex-container .intro-text .btn:active {
+.intro .flex-container .intro-text .btn:active {
   transform: translateY(-1px);
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 @media (min-width: 640px) {
-  main .intro .flex-container .intro-text {
+  .intro .flex-container .intro-text {
     text-align: left;
   }
 }
-main .intro .intro-about {
+.intro .intro-about {
   margin: 0 3% 5rem;
   padding: 2rem;
   border: #7c6965 solid 2px;
@@ -317,21 +322,21 @@ main .intro .intro-about {
   opacity: 0.8;
 }
 @media (min-width: 640px) {
-  main .intro .intro-about {
+  .intro .intro-about {
     width: 80%;
     margin: 0 auto;
   }
 }
-main .skills {
+.skills {
   width: 100%;
   margin-top: 3rem;
   margin-bottom: 4rem;
 }
-main .skills h2 {
+.skills h2 {
   padding-left: 2rem;
   margin-bottom: 4rem;
 }
-main .skills .skills-box {
+.skills .skills-box {
   margin: 0 3% 5rem;
   padding: 2rem;
   border: #7c6965 solid 2px;
@@ -340,23 +345,23 @@ main .skills .skills-box {
   box-shadow: 5px 8px 0px #f3cc40, 10px 16px 0px #e48545, 15px 24px 0px #e6673e;
 }
 @media (min-width: 1500px) {
-  main .skills {
+  .skills {
     max-width: 1500px;
   }
 }
-main .experience {
+.experience {
   margin-top: 3rem;
   margin-bottom: 4rem;
 }
-main .experience h2 {
+.experience h2 {
   padding-left: 2rem;
   margin-bottom: 2rem;
 }
-main .experience h3 {
+.experience h3 {
   padding-left: 2rem;
   margin-bottom: 1rem;
 }
-main .experience .experience-box {
+.experience .experience-box {
   margin: 0 3% 5rem;
   padding: 2rem;
   border: #7c6965 solid 2px;
@@ -364,42 +369,42 @@ main .experience .experience-box {
   border-radius: 0.5rem;
   box-shadow: 5px 8px 0px #fcb8b9, 10px 16px 0px #f6c9f4, 15px 24px 0px #974ca7;
 }
-main .experience .education-experience {
+.experience .education-experience {
   margin-bottom: 8rem;
 }
 @media (min-width: 1500px) {
-  main .experience {
+  .experience {
     max-width: 1500px;
   }
 }
-main .contact {
+.contact {
   padding: 5rem 3rem 3rem;
   text-align: center;
   width: 100%;
   background: #70ccbf;
 }
-main .contact .contact-text {
+.contact .contact-text {
   margin-bottom: 8rem;
 }
-main .contact h2 {
+.contact h2 {
   margin-bottom: 2rem;
 }
-main .contact a {
+.contact a {
   color: #fbfaef;
 }
-main .contact a:hover {
+.contact a:hover {
   color: #f3cc40;
 }
-main .contact .tel {
+.contact .tel {
   text-decoration: none;
 }
 @media (min-width: 640px) {
-  main .contact .icons {
+  .contact .icons {
     max-width: 800px;
     margin: 0 auto;
   }
 }
-main .contact .icon {
+.contact .icon {
   text-decoration: none;
   border-bottom: none;
   color: #000000;
@@ -408,11 +413,6 @@ main .contact .icon {
   font-family: "Font Awesome 5 Brands";
   padding: 1rem;
 }
-main .contact .icon > .label {
+.contact .icon > .label {
   display: none;
-}
-main .footer {
-  background: #70ccbf;
-  width: 100%;
-  text-align: center;
 }
