@@ -202,7 +202,7 @@ ul li {
 main .flex-container {
   margin-bottom: 4rem;
 }
-@media screen and (min-width: 640px) {
+@media (min-width: 640px) {
   main .flex-container {
     display: flex;
     flex-flow: row wrap;
@@ -268,7 +268,7 @@ main .intro .flex-container .flex-three-quarters {
   text-align: center;
   margin: 2rem;
 }
-@media screen and (min-width: 640px) {
+@media (min-width: 640px) {
   main .intro .flex-container .intro-img {
     text-align: right;
   }
@@ -303,7 +303,7 @@ main .intro .flex-container .intro-text .btn:active {
   transform: translateY(-1px);
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
-@media screen and (min-width: 640px) {
+@media (min-width: 640px) {
   main .intro .flex-container .intro-text {
     text-align: left;
   }
@@ -316,7 +316,7 @@ main .intro .intro-about {
   border-radius: 0.5rem;
   opacity: 0.8;
 }
-@media screen and (min-width: 640px) {
+@media (min-width: 640px) {
   main .intro .intro-about {
     width: 80%;
     margin: 0 auto;
@@ -339,7 +339,7 @@ main .skills .skills-box {
   border-radius: 0.5rem;
   box-shadow: 5px 8px 0px #f3cc40, 10px 16px 0px #e48545, 15px 24px 0px #e6673e;
 }
-@media screen and (min-width: 1500px) {
+@media (min-width: 1500px) {
   main .skills {
     max-width: 1500px;
   }
@@ -367,7 +367,7 @@ main .experience .experience-box {
 main .experience .education-experience {
   margin-bottom: 8rem;
 }
-@media screen and (min-width: 1500px) {
+@media (min-width: 1500px) {
   main .experience {
     max-width: 1500px;
   }
@@ -393,7 +393,7 @@ main .contact a:hover {
 main .contact .tel {
   text-decoration: none;
 }
-@media screen and (min-width: 640px) {
+@media (min-width: 640px) {
   main .contact .icons {
     max-width: 800px;
     margin: 0 auto;
